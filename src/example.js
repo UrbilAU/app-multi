@@ -1,1 +1,0 @@
-console.log('borraremos este script manualmente');
