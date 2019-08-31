@@ -7,3 +7,4 @@ console.log('adarra branch');
 console.log('master branch');
 console.log('adarra branch');
 console.log('beste adarra branch bat');
+console.log('git mergetool erabiltzen');
