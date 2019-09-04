@@ -9,5 +9,10 @@ console.log('adarberrian');
 console.log('adarberrian oraindik');
 console.log('adarberrian birrantolatu aurretik');
 console.log('actualizando desde otro repositorio');
+<<<<<<< HEAD
 console.log('actualizando desde otro repositorio');
 console.log('commit pa tag');
+=======
+console.log('commit pa tag');
+console.log('birantolatu aurretik');
+>>>>>>> birrantolatu aurretik
