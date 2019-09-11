@@ -10,8 +10,8 @@ console.log('adarberrian oraindik');
 console.log('adarberrian birrantolatu aurretik');
 console.log('actualizando desde otro repositorio');
 console.log('commit pa tag');
+console.log('actualizando desde UrbilArri')
 console.log('birantolatu aurretik');
 console.log('escrito en UrbilAU');
-
 console.log('actualizando desde otro repositorio');
 console.log('commit pa tag');
