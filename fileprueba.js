@@ -13,3 +13,5 @@ console.log('commit pa tag');
 console.log('birantolatu aurretik');
 console.log('escrito en UrbilAU');
 
+console.log('actualizando desde otro repositorio');
+console.log('commit pa tag');
