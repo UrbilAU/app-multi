@@ -8,4 +8,5 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 serviceWorker.unregister();
 
-console.log('writing from remote repository')
+console.log('writing from remote repository');
+console.log('adding new tag to commit');
