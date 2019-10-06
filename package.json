@@ -8,6 +8,7 @@
     "react-dom": "^16.9.0",
     "react-google-maps": "^9.4.5",
     "react-intl": "^3.3.2",
+    "react-intl-cra": "^0.3.4",
     "react-scripts": "3.1.1",
     "rimraf": "^3.0.0"
   },
@@ -16,7 +17,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "delete": "rimraf"
+    "delete": "rimraf",
+    "extract:messages": "react-intl-cra src/**/*.{js,jsx} -o src/i18n/messages/messages.json",
+    "extract:pot": "react-intl-po json2pot src/i18n/messages/messages.json -o src/i18n/messages/messages.pot",
+    "extract:po": "react-intl-po po2json src/i18n/messages/*.po -m src/i18n/messages/messages.json -o src/i18n/locales"
   },
   "eslintConfig": {
     "extends": "react-app"
